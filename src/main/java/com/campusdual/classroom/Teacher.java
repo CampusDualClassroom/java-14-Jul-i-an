@@ -14,7 +14,6 @@ public class Teacher extends Person {
 		detalles.append("Name: ").append(this.name);
 		detalles.append(", Surname: ").append(this.surname);
 		detalles.append(", Area: ").append(this.area);
-
-		System.out.println(detalles.toString());
+		System.out.println(detalles);
 	}
 }

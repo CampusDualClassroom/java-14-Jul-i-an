@@ -13,6 +13,6 @@ public class Person {
 		StringBuilder detalles = new StringBuilder();
 		detalles.append("Name: ").append(this.name);
 		detalles.append(", Surname: ").append(this.surname);
-		System.out.println(detalles.toString());
+		System.out.println(detalles);
 	}
 }

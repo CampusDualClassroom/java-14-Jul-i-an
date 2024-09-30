@@ -14,6 +14,6 @@ public class PoliceOfficer extends Person {
 		detalles.append("Name: ").append(this.name);
 		detalles.append(", Surname: ").append(this.surname);
 		detalles.append(", Squad: ").append(this.squad);
-		System.out.println(detalles.toString());
+		System.out.println(detalles);
 	}
 }

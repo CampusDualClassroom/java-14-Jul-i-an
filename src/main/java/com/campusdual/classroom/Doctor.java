@@ -14,7 +14,7 @@ public class Doctor extends Person {
 		detalles.append("Name: ").append(this.name);
 		detalles.append(", Surname: ").append(this.surname);
 		detalles.append(", Specialization: ").append(this.specialization);
-		System.out.println(detalles.toString());
+		System.out.println(detalles);
 	}
 
 }
